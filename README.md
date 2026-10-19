@@ -15,6 +15,7 @@ Former mechanical engineer, now building games whose rules, and physics, can be 
 
 ### 🔭 Now
 
+At [Cartridge](https://cartridge.gg), I build the gaming infrastructure of Starknet. In open source,
 I'm porting reputable Rust crates to Cairo, so that whole games, physics included, can be proven
 and settled on Starknet. Each package is measured in gas from day one and published on
 [scarbs.xyz](https://scarbs.xyz).
@@ -47,7 +48,7 @@ on Sepolia, and [Grim World](https://github.com/bal7hazar/grimworld), a fully on
 
 | When | Where | Role |
 |---|---|---|
-| 2024 – 2026 | [Cartridge](https://cartridge.gg) | Software engineer: Arcade, Controller, Marketplace |
+| 2024 – now | [Cartridge](https://cartridge.gg) | Software engineer: Arcade, Controller, Marketplace |
 | 2023 – 2024 | [zKorp](https://github.com/z-korp) | Game designer & smart contract developer |
 | 2022 – 2023 | [Carbonable](https://www.carbonable.io/) | Smart contract developer |
 | 2015 – 2022 | [Michelin](https://www.michelin.com/) | Mechanical engineer |
