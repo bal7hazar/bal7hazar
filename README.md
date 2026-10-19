@@ -15,17 +15,23 @@ Former mechanical engineer, now building games whose rules, and physics, can be 
 
 ### 🔭 Now
 
-I'm porting Rust's game-math and physics stack to Cairo, so that a whole game, physics included,
-can be proven and settled on Starknet. Each package is measured in gas from day one and published on
+I'm porting reputable Rust crates to Cairo, so that whole games, physics included, can be proven
+and settled on Starknet. Each package is measured in gas from day one and published on
 [scarbs.xyz](https://scarbs.xyz).
 
 | Package | Port of | Highlight |
 |---|---|---|
 | [`fixed`](https://github.com/bal7hazar/fixed-cairo) | `f64` | Q32.32 fixed point, bit-exact, loop-free trigonometry |
-| [`glam`](https://github.com/bal7hazar/glam-cairo) | glam | 7 to 12× less gas than a cubit-style scalar on vectors, matrices and quaternions |
+| [`simba`](https://github.com/bal7hazar/simba-cairo) | simba | Scalar traits for generic linear algebra |
 | [`nalgebra`](https://github.com/bal7hazar/nalgebra-cairo) | nalgebra | 99.9 % of the API (1,885 of 1,886 items), up to SVD and eigen decompositions |
+| [`glam`](https://github.com/bal7hazar/glam-cairo) | glam | 7 to 12× less gas than a cubit-style scalar on vectors, matrices and quaternions |
+| [`glamx`](https://github.com/bal7hazar/glamx-cairo) | glamx | Rotations, poses and symmetric matrices for physics |
 | [`rapier2d`](https://github.com/bal7hazar/rapier-cairo) | Rapier | Rigid bodies, colliders, joints, events, world save and restore |
-| [Slingfall](https://github.com/bal7hazar/slingfall) | (game) | A slingshot game on Sepolia: replayed in cairo-vm (WASM), proven, settled onchain |
+| [`hexx`](https://github.com/bal7hazar/hexx-cairo) | hexx | Hexagonal grids, with boards stored as bitmaps in a single felt |
+| [`quiver`](https://github.com/bal7hazar/quiver) | Arcade | Quests and achievements as native Starknet components |
+
+They power my games: [Slingfall](https://github.com/bal7hazar/slingfall), a provable slingshot game
+on Sepolia, and [Grim World](https://github.com/bal7hazar/grimworld), a fully onchain tick-based RPG.
 
 ### 🧰 Featured work
 
@@ -35,7 +41,7 @@ can be proven and settled on Starknet. Each package is measured in gas from day 
 | [Controller](https://github.com/cartridge-gg/controller) | 150+ PRs. Trophies, token transfers, collections, purchase flow | TS · React |
 | [Paved](https://github.com/stolslilabs/paved) | #1 contributor to this onchain tile-laying game, 400+ merged PRs | Cairo · TS |
 | [Origami](https://github.com/dojoengine/origami) | Started Dojo's game library: ELO rating, maze generation, pathfinding | Cairo |
-| [zKorp games](https://github.com/z-korp) | 3× 1st place at Dojo Game Jams with zKnight, zDefender and zKlash | Cairo · Dojo |
+| Dojo Game Jams | Winner with [zKnight](https://github.com/z-korp/zknight-contracts), [zDefender](https://github.com/z-korp/zdefender-contracts), [zKlash](https://github.com/z-korp/zklash), [Grim Block](https://github.com/bal7hazar/grimblock) and [Athanor](https://github.com/djizus/athanor) | Cairo · Dojo |
 
 ### 🧭 Path
 
@@ -53,6 +59,8 @@ can be proven and settled on Starknet. Each package is measured in gas from day 
 
 | Date | Event | Result | Project |
 |---|---|---|---|
+| 03/2026 | Dojo Game Jam VIII | 🏆 Winner | [Athanor](https://github.com/djizus/athanor), with djizus |
+| 11/2025 | Dojo Game Jam VII | 🏆 Prize winner | [Grim Block](https://github.com/bal7hazar/grimblock), solo |
 | 04/2024 | Dojo Game Jam #4 | 🥇 1st | [zKlash](https://github.com/z-korp/zklash) |
 | 11/2023 | Dojo Game Jam #2 | 🥇 1st | [zDefender](https://github.com/z-korp/zdefender-contracts) |
 | 09/2023 | Dojo Game Jam #1 | 🥇 1st | [zKnight](https://github.com/z-korp/zknight-contracts) |
