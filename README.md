@@ -41,7 +41,7 @@ on Sepolia, and [Grim World](https://github.com/bal7hazar/grimworld), a fully on
 | [Controller](https://github.com/cartridge-gg/controller) | 150+ PRs. Trophies, token transfers, collections, purchase flow | TS · React |
 | [Paved](https://github.com/stolslilabs/paved) | #1 contributor to this onchain tile-laying game, 400+ merged PRs | Cairo · TS |
 | [Origami](https://github.com/dojoengine/origami) | Started Dojo's game library: ELO rating, maze generation, pathfinding | Cairo |
-| Dojo Game Jams | Winner with [zKnight](https://github.com/z-korp/zknight-contracts), [zDefender](https://github.com/z-korp/zdefender-contracts), [zKlash](https://github.com/z-korp/zklash), [Grim Block](https://github.com/bal7hazar/grimblock) and [Athanor](https://github.com/djizus/athanor) | Cairo · Dojo |
+| Dojo Game Jams | Winner with [zKnight](https://github.com/z-korp/zknight-contracts), [zDefender](https://github.com/z-korp/zdefender-contracts), [zKlash](https://github.com/z-korp/zklash) and [Athanor](https://github.com/djizus/athanor) | Cairo · Dojo |
 
 ### 🧭 Path
 
@@ -60,7 +60,6 @@ on Sepolia, and [Grim World](https://github.com/bal7hazar/grimworld), a fully on
 | Date | Event | Result | Project |
 |---|---|---|---|
 | 03/2026 | Dojo Game Jam VIII | 🏆 Winner | [Athanor](https://github.com/djizus/athanor), with djizus |
-| 11/2025 | Dojo Game Jam VII | 🏆 Prize winner | [Grim Block](https://github.com/bal7hazar/grimblock), solo |
 | 04/2024 | Dojo Game Jam #4 | 🥇 1st | [zKlash](https://github.com/z-korp/zklash) |
 | 11/2023 | Dojo Game Jam #2 | 🥇 1st | [zDefender](https://github.com/z-korp/zdefender-contracts) |
 | 09/2023 | Dojo Game Jam #1 | 🥇 1st | [zKnight](https://github.com/z-korp/zknight-contracts) |
